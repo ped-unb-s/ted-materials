@@ -1,0 +1,271 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 24 20:45:39 2017
+# Process ID: 412
+# Current directory: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1/main.vds
+# Journal file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 384 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 292.137 ; gain = 83.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/main.vhd:14]
+INFO: [Synth 8-3491] module 'clock1' declared at 'C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/clockdivisor.vhd:6' bound to instance 'clk' of component 'clock1' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/main.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'clock1' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/clockdivisor.vhd:13]
+WARNING: [Synth 8-614] signal 'count' is read in the process but is not in the sensitivity list [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/clockdivisor.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'clock1' (1#1) [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/clockdivisor.vhd:13]
+INFO: [Synth 8-3491] module 'seletor' declared at 'C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/seletor.vhd:6' bound to instance 'seldisplay' of component 'seletor' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/main.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'seletor' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/seletor.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'seletor' (2#1) [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/seletor.vhd:12]
+INFO: [Synth 8-3491] module 'mux' declared at 'C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/mux.vhd:5' bound to instance 'multi' of component 'mux' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/main.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'mux' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux' (3#1) [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/mux.vhd:13]
+INFO: [Synth 8-3491] module 'decodificador' declared at 'C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/decodificador.vhd:4' bound to instance 'decod' of component 'decodificador' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/main.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'decodificador' [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/decodificador.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'decodificador' (4#1) [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/decodificador.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'main' (5#1) [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.srcs/sources_1/new/main.vhd:14]
+WARNING: [Synth 8-3917] design main has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design main has port an[2] driven by constant 1
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 329.473 ; gain = 120.555
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 329.473 ; gain = 120.555
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/basys3_master.xdc]
+Finished Parsing XDC File [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/basys3_master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/basys3_master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 625.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design main has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design main has port an[2] driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     6|
+|3     |LUT1   |    22|
+|4     |LUT3   |     3|
+|5     |LUT6   |     7|
+|6     |FDRE   |    21|
+|7     |IBUF   |     9|
+|8     |OBUF   |    11|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    80|
+|2     |  clk    |clock1 |    59|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 625.164 ; gain = 112.395
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 625.164 ; gain = 416.246
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 625.164 ; gain = 414.781
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1/main.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 625.164 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 24 20:46:21 2017...

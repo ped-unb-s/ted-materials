@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 24 20:45:39 2017
+# Process ID: 412
+# Current directory: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1/main.vds
+# Journal file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri May 26 17:58:27 2017
+# Process ID: 1144
+# Current directory: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/flipflop_subida/flipflop_subida.runs/synth_1
+# Command line: vivado.exe -log flipflop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source flipflop.tcl
+# Log file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/flipflop_subida/flipflop_subida.runs/synth_1/flipflop.vds
+# Journal file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/flipflop_subida/flipflop_subida.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source flipflop.tcl -notrace

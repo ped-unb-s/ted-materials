@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 24 20:42:55 2017
+# Process ID: 5372
+# Current directory: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5532 C:\Users\Adrianne\Desktop\ADRIANNE ALVES DA SILVA - 160047595\seg7\seg7.xpr
+# Log file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/vivado.log
+# Journal file: C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/seg7/seg7.xpr}
+add_files -fileset constrs_1 -norecurse {{C:/Users/Adrianne/Desktop/ADRIANNE ALVES DA SILVA - 160047595/basys3_master.xdc}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+remove_files  -fileset constrs_1 C:/Users/Adrianne/Desktop/basys3_master.xdc
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw

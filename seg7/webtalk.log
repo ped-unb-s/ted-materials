@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 24 09:41:05 2017
+# Process ID: 8668
+# Current directory: C:/Users/Adrianne/Desktop/TUDO PC MORREU/CURSO_VHDL/seg7
+# Command line: wbtcv.exe -mode batch -source C:/Users/Adrianne/Desktop/mux-7seg/mux-7seg.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Users/Adrianne/Desktop/TUDO PC MORREU/CURSO_VHDL/seg7/webtalk.log
+# Journal file: C:/Users/Adrianne/Desktop/TUDO PC MORREU/CURSO_VHDL/seg7\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Adrianne/Desktop/mux-7seg/mux-7seg.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed May 24 09:41:05 2017...
